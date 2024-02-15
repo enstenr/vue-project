@@ -22,6 +22,11 @@ const router = createRouter({
       name: 'contactme',
       component:()=>import ('../views/ContactView.vue')
     }, 
+    {
+      path: '/bindings',
+      name: 'bindings',
+      component:()=>import ('../views/BindingsView.vue')
+    }, 
   ]
 })
 
